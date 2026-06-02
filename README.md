@@ -30,33 +30,3 @@ Concept erasure has become an important safeguard for reducing unsafe, copyright
 │   ├── evaluate_style.py
 │   └── evaluate_objects.py
 └── requirements.txt
-Run SGCR Benchmark
-1. Condition Extraction
-
-Bash
-python scripts/extract_conditions.py --model_id "CompVis/stable-diffusion-v1-4" --output_dir "./examples"
-2. Multi-Scale Generation (Adapter Injection Setting)
-
-Bash
-CUDA_VISIBLE_DEVICES=0 python run_benchmark.py --base_model_id "CompVis/stable-diffusion-v1-4" --controlnet_path "lllyasviel/control_v11p_sd15_canny" --source_img_path "./examples/canny_safe_clothed.png"
-3. Quantitative Evaluation
-
-Bash
-python scripts/evaluate_nudity.py --results_dir "./outputs/benchmark_results" --threshold 0.45
-Acknowledgements
-We extend our gratitude to the following repositories for their contributions and resources:
-
-ESD
-
-UCE
-
-MACE
-
-Towards Reliable Malicious Concept Erasure
-
-ADaVD
-
-Their works have significantly contributed to the development of our work.
-
-About
-[Under Review @ The Visual Computer] Geometry-Guided Concept Recovery in Text-to-Image Diffusion Models: A Robustness Study of Structural Control after Concept Erasure.
