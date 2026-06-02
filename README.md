@@ -51,8 +51,10 @@ We extend our gratitude to the following repositories for their contributions an
 * [ESD](https://github.com/rohitgandikota/erasing)
 * [UCE](https://github.com/rohitgandikota/unified-concept-editing)
 * [MACE](https://github.com/shilin-lu/MACE)
-* [Towards Reliable Malicious Concept Erasure](https://github.com/Your_Link_Here)
+* [TRCE](https://github.com/Your_Link_Here)
 * [ADaVD](https://github.com/Your_Link_Here)
+* [SLD](https://github.com/Your_Link_Here)
+* [NP](https://github.com/Your_Link_Here)
 
 Their works have significantly contributed to the development of our work.
 
