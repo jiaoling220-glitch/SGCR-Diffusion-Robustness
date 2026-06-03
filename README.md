@@ -1,5 +1,5 @@
 # SGCR
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20520166.svg)](https://doi.org/10.5281/zenodo.20520166)
 > **WARNING:** This repository contains evaluation protocols for concept recovery, which may involve safety-critical target concepts (e.g., explicit content). Following responsible release guidelines, no explicit reference images are included.
 
 ### Introduction
